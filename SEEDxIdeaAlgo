@@ -1,0 +1,100 @@
+The Idea!! there will be a lot of changes during production*
+I will be using pseudocode.
+
+Why am I using pseudocode?
+So that all programmers can understand them, even if they do not all know the same programming languages.
+A programmer who needs to implement a specific algorithm, especially an unfamiliar one, will often start with a pseudocode description, and then "translate" that description into the target programming language and modify it to interact correctly with the rest of the program.
+The general algorithm will call other algorithms…
+  Written based on research on planting pepper seed.
+  References:
+     http://www.almanac.com/plant/bell-peppers
+     https://pepperjoe.com/pages/gardening-tips-starting-peppers-from-seed    
+     http://www.instructables.com/id/Propogating-Peppers/?ALLSTEPS
+     http://www.burpee.com/gardenadvicecenter/areas-of-interest/seed-starting/growing-peppers/article10252.html 
+    http://davesgarden.com/guides/articles/view/2266#b 
+    http://thepepperseed.com/growing-peppers/growing-peppers-from-seed/
+    Commercial crop production guide series (Growing Pepper in Nigeria)
+*- user actions
+$- universal functions
+Start Program        (Stage 1)
+*Select seed
+*Select soil mixture/type (Sandy, Clay or loamy)   
+~Will present the user with 3 different soil options explaining the advantages and disadvantages~
+~Option 1: Good; Option 2: manageable; Option 3: bad~
+If 
+  Soil = option 1
+Then call
+ soilSelection1()
+Else if 
+Soil = option 2 
+Then call
+soilSelection2()
+Else if 
+Soil = option 3
+Then call 
+soilSelction3()
+
+….
+Soilslection1()  ~Good to go!~ 
+#Nursery Preparation
+~UI description explaining the process~
+Call 
+plantSeed() ~select appropriate seed planting depth~
+$setTemp()  ~The temperature must be at least 27-29C  for seed germination~
+		~user will be reminded at various intervals to regulate temp~
+$waterPlant();
+$grow()   ~automatically called under certain conditions~
+
+#random after some time;
+removeWeakSeedlings();
+#random feature disease and pest control
+$removePest();
+
+(Stage 2)
+transplant();  ~moving the seedling to the garden~
+$addfertilizers()
+
+(Stage 3)
+harvest()	
+
+----------------------------------------------------------------------
+plantSeed():
+select seed depth  ~Will present the user with 3 different options explaining the advantages and disadvantages~
+~Option 1: Good; Option 2: manageable; Option 3: bad~
+
+If 
+   seedDepthSel = option 1;
+ accept then 
+	$grow()
+If seedDepthSel = option 2;
+Accept then
+	$grow()  ~with consequences 2~
+If seedDepthSel = option 3;
+Accept then
+	$grow()  ~with consequences 3~
+
+Next
+setSpace():  ~Peppers should be planted 24 inches apart. This will give the plant plenty of room to grow. It will also allow you good access to the plant to pick the peppers.~
+
+more…
+----------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
